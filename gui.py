@@ -341,7 +341,7 @@ class App:
                               bg=NAVY_HEADER, fg=NAVY_SUB, font=font(9, True))
         course_lbl.pack(anchor="e")
 
-        team_str = "Sriranga Bhardwaj (PES1UG24AM286)  ·  Sumuk D Hegde (PES1UG24AM295)  ·  Shraddha (PES1UG25AM812)"
+        team_str = "Sriranga Bhardwaj (PES1UG24AM286)  ·  Sumuk D Hegde (PES1UG24AM296)  ·  Shraddha (PES1UG25AM812)"
         team_lbl = tk.Label(right, text=team_str, bg=NAVY_HEADER, fg=NAVY_LIGHT, font=font(9))
         team_lbl.pack(anchor="e", pady=(2, 0))
 
