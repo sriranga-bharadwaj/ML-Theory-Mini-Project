@@ -3,7 +3,7 @@
 | Member | SRN |
 |---|---|
 | Sriranga Bhardwaj | PES1UG24AM286 |
-| Sumuk D Hegde | PES1UG24AM296 |
+| Sumuk D Hegde | PES1UG24AM293 |
 | Shraddha | PES1UG25AM812 |
 
 ---
@@ -36,7 +36,7 @@
 **Sriranga Bhardwaj (PES1UG24AM286)**
 Led the overall pipeline design and integration. Implemented feature extraction (`src/features.py`), Stages 1 and 2 (fly counting and sex identification), the end-to-end `FlyPipeline` class, the CLI demo script, the GUI, and project documentation.
 
-**Sumuk D Hegde (PES1UG24AM296)**
+**Sumuk D Hegde (PES1UG24AM293)**
 Built the fly simulator and data generation pipeline (`src/synth.py`, `generate_dataset.py`), implemented Stage 3 (orientation model using HOG + PCA + logistic regression), contributed to the GUI and evaluation pipeline, and co-authored the write-up.
 
 **Shraddha (PES1UG25AM812)**
