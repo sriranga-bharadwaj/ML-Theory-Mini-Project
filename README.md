@@ -1,7 +1,7 @@
 # Real-time Detailed Video Analysis of Fruit Flies
 
 **UE24CS352A – Machine Learning – Mini-Project**
-Team: **Sriranga Bhardwaj** (PES1UG24AM286) · **Sumuk D Hegde** (PES1UG24AM296) · **Shraddha** (PES1UG25AM812)
+Team: **Sriranga Bhardwaj** (PES1UG24AM286) · **Sumuk D Hegde** (PES1UG24AM293) · **Shraddha** (PES1UG25AM812)
 
 Given a grayscale video of one male and one female fruit fly, the system annotates **every
 frame** with

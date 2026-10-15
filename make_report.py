@@ -130,7 +130,7 @@ def first_page(c, doc):
     c.drawString(LM, H - 64, "UE24CS352A  Machine Learning  |  Mini-Project Write-up")
     authors = [
         ("Sriranga Bhardwaj", "PES1UG24AM286"),
-        ("Sumuk D Hegde", "PES1UG24AM295"),
+        ("Sumuk D Hegde", "PES1UG24AM293"),
         ("Shraddha", "PES1UG25AM812"),
     ]
     x = LM
