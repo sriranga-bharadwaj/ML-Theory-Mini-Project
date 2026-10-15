@@ -1,0 +1,95 @@
+{
+  "dataset": {
+    "total_frames": 900,
+    "training_frames": 600,
+    "test_frames": 300
+  },
+  "stage1_fly_counting": {
+    "model": "Decision tree",
+    "training_error_percent": 0.3562945368171033,
+    "test_error_percent": 0.9216589861751112,
+    "training_samples": 1684,
+    "test_samples": 868
+  },
+  "stage2_sex_identification": {
+    "model": "Logistic regression",
+    "training_error_percent": 0.0,
+    "test_error_percent": 0.692041522491349,
+    "training_samples": 1146,
+    "test_samples": 578,
+    "test_error_percent_if_area_only": 3.460207612456745
+  },
+  "stage3_orientation_male": {
+    "model": "HOG + PCA + logistic regression",
+    "training_error_percent": 0.0,
+    "test_error_percent": 0.0,
+    "heading_error_degrees_average": 0.40283468828510505,
+    "heading_error_degrees_median": 0.288419100459123,
+    "heading_within_10_degrees_percent": 99.65397923875432,
+    "training_samples": 573,
+    "test_samples": 289
+  },
+  "stage3_orientation_female": {
+    "model": "HOG + PCA + logistic regression",
+    "training_error_percent": 0.0,
+    "test_error_percent": 0.0,
+    "heading_error_degrees_average": 0.21193652584723285,
+    "heading_error_degrees_median": 0.14785539848082863,
+    "heading_within_10_degrees_percent": 100.0,
+    "training_samples": 573,
+    "test_samples": 289
+  },
+  "stage4_wing_angle": {
+    "model": "HOG + PCA + linear regression",
+    "training_error_degrees_spread_std": 4.290077414838557,
+    "test_error_degrees_spread_std": 5.189716328295828,
+    "test_error_degrees_average": 3.276034539304881,
+    "test_bias_degrees": -0.2938155625846791,
+    "true_wing_angle_spread_std_degrees": 25.357377049242203,
+    "r_squared": 0.9579788067630786,
+    "training_samples": 1146,
+    "test_samples": 578
+  },
+  "pca_size_study": {
+    "number_of_components": [
+      1,
+      2,
+      5,
+      10,
+      15,
+      25,
+      40,
+      60
+    ],
+    "orientation_male_test_error_percent": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orientation_female_test_error_percent": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wing_angle_test_error_degrees_spread_std": [
+      11.719098930059669,
+      8.86223397558712,
+      7.866987455195255,
+      6.377846324158225,
+      6.084466824454263,
+      5.684660219359118,
+      5.189716328295828,
+      5.025274399551751
+    ]
+  }
+}

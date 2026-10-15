@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.venv/
+# regenerated in seconds by generate_dataset.py (seeded, deterministic)
+data/frames/

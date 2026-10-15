@@ -1,0 +1,10 @@
+numpy
+opencv-python
+scikit-learn
+scikit-image
+matplotlib
+joblib
+reportlab
+pillow
+# the GUI also needs tkinter: included with Python on Windows/macOS,
+# on Ubuntu/Debian install it with:  sudo apt install python3-tk

@@ -1,0 +1,40 @@
+{
+  "video_file": "video.avi",
+  "frames_processed": 20,
+  "source_video_fps": 30.0,
+  "speed": {
+    "frames_per_second": 83.61029242768382,
+    "milliseconds_per_frame": 11.960249999901862,
+    "times_faster_than_source_video": 2.7870097475894604
+  },
+  "time_per_frame_milliseconds": {
+    "reading_video_frame": 1.1804200000369747,
+    "stage1_fly_counting": 0.8346050000000105,
+    "stage2_sex_identification": 0.467539999976907,
+    "stage3_orientation": 5.011939999940296,
+    "stage4_wing_angles": 4.465744999947674
+  },
+  "time_share_percent": {
+    "reading_video_frame": 9.869526139057799,
+    "stage1_fly_counting": 6.978156811160793,
+    "stage2_sex_identification": 3.9091156119708477,
+    "stage3_orientation": 41.904976902501375,
+    "stage4_wing_angles": 37.33822453530919
+  },
+  "frame_outcomes": {
+    "analysed_successfully": 20,
+    "skipped_flies_touching": 0,
+    "skipped_could_not_resolve": 0
+  },
+  "accuracy_vs_ground_truth": {
+    "flies_checked": 40,
+    "sex_correct_percent": 100.0,
+    "position_error_pixels_average": 1.6171077168820354,
+    "heading_error_degrees_average": 0.1983526347616305,
+    "heading_error_degrees_median": 0.16755850460158683,
+    "heading_within_15_degrees_percent": 100.0,
+    "wing_angle_error_degrees_average": 1.8670035026692269,
+    "wing_angle_error_degrees_spread_std": 2.145201849609088,
+    "wing_angle_bias_degrees": 0.6900287429600109
+  }
+}
